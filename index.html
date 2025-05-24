@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarfaraj Alam | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<canvas id="stars"></canvas>
+<body>
+<div class="welcome-container">
+  <h1 class="welcome-text">Welcome to My Portfolio</h1>
+</div>
+  <nav>
+    <div class="logo">Sarfaraj Alam</div>
+    <ul id="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="hamburger">&#9776;</div>
+    <button id="theme-toggle" class="theme-btn"><span id="theme-icon">🌙</span></button>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <img src="img/r.jpg" alt="Profile Photo "
+     class="hero-pic" />
+      <h1>Hi, I’m Sarfaraj Alam</h1>
+      <p><a href=""></a> B.Tech student in Electronics and Communication Engineering at Central University of Jammu (2022–2026).</p>
+      <p>Experienced in Arduino, IoT projects, and programming languages like C, C++, Python & Web languages like HTML, CSS & JS.</p>
+      <p>Having experience of Internships and Workshops at prestigious Institutes like IIST, IIT & NIT in UAVs, VLSI, 3D modeling. President of the Innovation Club.</p>
+      
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2><i class="fas fa-user"></i> About</h2>
+    <p>I’m a tech enthusiast with a passion for embedded systems, automation, and innovation.</p>
+  </section>
+
+  <section id="education" class="section" data-aos="fade-right">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    <ul>
+      <li>B.Tech (ECE - Avionics), Central University of Jammu (2022–2026)</li>
+      <li>12th, +2 High School Bhabhua, BSEB (2020-2022)</li>
+      <li>10th, DAV Public School Ratwar, CBSE (2010-2020)</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="section" data-aos="zoom-in">
+    <h2><i class="fas fa-code"></i> Skills</h2>
+    <ul>
+      <li>C, C++, Python (Basic)</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Proteus, MATLAB, Blender</li>
+      <li>IoT, UAVs, PCB Design</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-left">
+  <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+  <ul>
+    <li><a href="projects/smart-door-lock-system.html" target="_blank">Smart Door Lock System</a></li>
+    <li><a href="projects/traffic-light.html" target="_blank">Autonomous traffic-light Managment System</a></li>
+    <li><a href="projects/obstacle-detection.html" target="_blank">Obstacle Detection System</a></li>
+    <li><a href="projects/smart-dustbin.html" target="_blank">Smart Dustbin System</a></li>
+    <li><a href="projects/web-development.html" target="_blank">Web Development</a></li>
+    <li><a href="projects/mobile-charger.html" target="_blank">Mobile Charger</a></li>
+  </ul>
+</section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+    <p>Email: <a href="mailto:sarfarajkhan889949@gmail.com">sarfarajkhan889949@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918899492175">+918899492175</a></p>
+              <a href="tel:+918235126680">+918235126680</a></p>
+    <p>Location: Village+PO Kathej, PS Mohania, District Kaimur(Bhabhua)</p>
+    <p>Pincode: 821109, Bihar</p>
+    <div class="resume-options">
+  <a href="Sarfaraj's Resume .pdf" target="_blank" class="resume-btn view">View Resume</a>
+  <a href="Sarfaraj's Resume .pdf" download class="resume-btn download">Download Resume</a>
+</div>
+  
+  </section>
+
+  <footer>
+    <div class="social-icons">
+  <a href="https://www.instagram.com/_sarfaraj_khan_0/" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://wa.me/918899492175" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://www.linkedin.com/in/sarfaraj-alam-9920aa325" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/@Sarfraj19311854" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2025 Sarfaraj Alam | Innovation Club President</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: false, mirror: true, duration: 800 });
+  </script>
+</body>
+</html>
