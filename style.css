@@ -373,17 +373,15 @@ body.dark .section {
 
 /* Footer */
 footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
   background: #2c3e50;
   color: white;
   font-size: 0.95rem;
-}
-  footer .social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 0.5rem;
+  text-align: center;
 }
 
 /* Responsive */
