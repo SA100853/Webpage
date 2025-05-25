@@ -340,7 +340,7 @@ body.dark .section {
 
 .collaborate-box {
   margin-top: 2rem;
-  background: #2a2a2a;
+  background: transparent;
   padding: 1.5rem;
   border-radius: 10px;
 }
