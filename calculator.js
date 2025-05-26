@@ -20,7 +20,7 @@ function calculate() {
     const result = eval(expression);
     document.getElementById('display').value = result;
   } catch {
-    document.getElementById('display').value = 'Error';
+    document.getElementById('display').value = 'Think Again!';
   }
 }
 
@@ -43,6 +43,6 @@ function calculateFunction(func) {
     }
     document.getElementById('display').value = result;
   } catch {
-    document.getElementById('display').value = 'Error';
+    document.getElementById('display').value = 'Think Again!';
   }
 }
