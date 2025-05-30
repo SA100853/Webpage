@@ -9,6 +9,7 @@ Visit: [https://sa100853.github.io/Webpage//](https://sa100853.github.io/Webpage
 - Responsive design (mobile-first)
 - Project pages (open in new tabs)
 - Scientific calculator (fully functional)
+- Real-Time Waether Forecasting
 - Dark/light mode toggle
 - Smooth scroll & animation on scroll
 - Resume view/download option
