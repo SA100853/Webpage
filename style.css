@@ -101,6 +101,9 @@ body.dark {
 }
 
 /* Hover colors per platform */
+.social-icons a:hover .fa-github {
+  color: #333;
+}
 .social-icons a:hover .fa-instagram {
   color: #e5176d;
 }
