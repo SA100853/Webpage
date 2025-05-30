@@ -3,7 +3,7 @@
 This is my personal portfolio website built to showcase my projects, skills, education, and achievements as a B.Tech ECE (Avionics) student. It includes a live scientific calculator and detailed project pages, with support for mobile, tablet, and desktop.
 
 ## 🔗 Live Website
-Visit: [https://sa100853.github.io/Webpage/](https://github.com/SA100853/Webpage)
+Visit: [https://sa100853.github.io/Webpage//](https://sa100853.github.io/Webpage/)
 
 ## 🧠 Features
 - Responsive design (mobile-first)
